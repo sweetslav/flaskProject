@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <title>
+        {% block title %}
+            Мой сайт
+        {% endblock %}
+    </title>
+    <style>
+        /* Дополнительные стили */
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 14px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <ul class="nav nav-pills justify-content-end align-items-lg-end">
+        <li class="nav-item"><a href="/main/" class="nav-link">Основная</a></li>
+        <li class="nav-item"><a href="/data/" class="nav-link">Данные</a></li>
+    </ul>
+
+    {% block content %}
+        Страница не заполнена
+    {% endblock %}
+
+    <div class="row footer">
+        <div class="col">
+            <hr>
+            <p>2024. All rights reserved</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
