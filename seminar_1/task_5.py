@@ -10,6 +10,7 @@ first = '''
 <p>Привет мир</p>
 '''
 
+
 @app.route('/')
 def hello():
     return first

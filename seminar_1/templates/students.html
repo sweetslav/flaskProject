@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Список студентов</h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Имя</th>
+        <th>Фамилия</th>
+        <th>Возраст</th>
+        <th>Средний балл</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for stud in person %}
+        <tr>
+            <td>{{ stud.first_name }}</td>
+            <td>{{ stud.last_name }}</td>
+            <td>{{ stud.age }}</td>
+            <td>{{ stud.avg_score }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>
