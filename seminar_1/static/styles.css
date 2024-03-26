@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* light gray background */
+}
+
+/* Header */
+header {
+    background-color: #343a40; /* dark gray header */
+    color: #fff; /* white text */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* white links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* underline on hover */
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff; /* white background for sections */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #343a40; /* dark gray headings */
+}
+
+section p {
+    color: #555; /* dark gray text */
+}
+
+/* Footer */
+footer {
+    background-color: #343a40; /* dark gray footer */
+    color: #fff; /* white text */
+    padding: 20px;
+    text-align: center;
+}

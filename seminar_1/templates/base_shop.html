@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Название{% endblock %}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<!-- Шапка страницы -->
+<header>
+    <h1>Название магазина</h1>
+    <nav>
+        <ul>
+            <li><a href="/clothes/">Одежда</a></li>
+            <li><a href="/shoes/">Обувь</a></li>
+            <li><a href="/accessories/">Аксессуары</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Основной контент страницы -->
+<main>
+    {% block content %}
+        <section id="section1">
+            <h2>Раздел 1</h2>
+            <p>Содержимое раздела 1.</p>
+        </section>
+        <section id="section2">
+            <h2>Раздел 2</h2>
+            <p>Содержимое раздела 2.</p>
+        </section>
+        <section id="section3">
+            <h2>Раздел 3</h2>
+            <p>Содержимое раздела 3.</p>
+        </section>
+    {% endblock %}
+</main>
+
+<!-- Подвал страницы -->
+<footer>
+    <p>Copyright &copy; 2024</p>
+</footer>
+</body>
+</html>
