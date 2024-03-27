@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a4e54da-a615-4f8e-8b87-f4d5ea63677b" name="Changes" comment="start homework, create task_9.py">
-      <change afterPath="$PROJECT_DIR$/seminar_1/templates/accessories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar_1/templates/base_shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar_1/templates/clothes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar_1/templates/shoes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar_1/templates/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flaskProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flaskProject.iml" afterDir="false" />
+    <list default="true" id="7a4e54da-a615-4f8e-8b87-f4d5ea63677b" name="Changes" comment="complete app_09.py, db.py">
+      <change afterPath="$PROJECT_DIR$/lesson_2/app_10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/templates/500.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_1/templates/new_data.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/templates/new_data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_1/templates/new_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/templates/new_main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar_1/task_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_1/task_9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +19,9 @@
       <list>
         <option value="Flask Main" />
         <option value="Python Stub" />
-        <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -44,10 +37,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -76,6 +77,16 @@
     "Flask server.Flask (lesson_1/app_09.py).executor": "Run",
     "Flask server.Flask (lesson_1/app_10.py).executor": "Run",
     "Flask server.Flask (lesson_1/app_11.py).executor": "Run",
+    "Flask server.Flask (lesson_2/app_01.py).executor": "Run",
+    "Flask server.Flask (lesson_2/app_02.py).executor": "Run",
+    "Flask server.Flask (lesson_2/app_03.py).executor": "Run",
+    "Flask server.Flask (lesson_2/app_04.py).executor": "Run",
+    "Flask server.Flask (lesson_2/app_05.py).executor": "Run",
+    "Flask server.Flask (lesson_2/app_06.py).executor": "Run",
+    "Flask server.Flask (lesson_2/app_07.py).executor": "Run",
+    "Flask server.Flask (lesson_2/app_08.py).executor": "Run",
+    "Flask server.Flask (lesson_2/app_09.py).executor": "Run",
+    "Flask server.Flask (lesson_2/app_10.py).executor": "Run",
     "Flask server.Flask (seminar_1/task_1.py).executor": "Run",
     "Flask server.Flask (seminar_1/task_2.py).executor": "Run",
     "Flask server.Flask (seminar_1/task_3.py).executor": "Run",
@@ -85,11 +96,14 @@
     "Flask server.Flask (seminar_1/task_7.py).executor": "Run",
     "Flask server.Flask (seminar_1/task_8.py).executor": "Run",
     "Flask server.Flask (seminar_1/task_9.py).executor": "Run",
+    "JavaScript Debug.about.html.executor": "Debug",
     "Python.wsgi.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "lesson__2",
+    "ignore.virus.scanning.warn.message": "true",
     "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "C:/Users/slavu/PycharmProjects/flaskProject/lesson_2",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -106,16 +120,21 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\slavu\PycharmProjects\flaskProject\lesson_2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\slavu\PycharmProjects\flaskProject\lesson_2" />
+      <recent name="C:\Users\slavu\PycharmProjects\flaskProject\seminar_1\static" />
       <recent name="C:\Users\slavu\PycharmProjects\flaskProject\lesson_1" />
       <recent name="C:\Users\slavu\PycharmProjects\flaskProject" />
       <recent name="C:\Users\slavu\PycharmProjects\flaskProject\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (seminar_1/task_9.py)">
-    <configuration name="Flask (seminar_1/task_5.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Flask server.Flask (lesson_2/app_10.py)">
+    <configuration name="Flask (lesson_2/app_06.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="flaskProject" />
-      <option name="target" value="$PROJECT_DIR$/seminar_1/task_5.py" />
+      <option name="target" value="$PROJECT_DIR$/lesson_2/app_06.py" />
       <option name="targetType" value="PATH" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,9 +148,9 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (seminar_1/task_6.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask (lesson_2/app_07.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="flaskProject" />
-      <option name="target" value="$PROJECT_DIR$/seminar_1/task_6.py" />
+      <option name="target" value="$PROJECT_DIR$/lesson_2/app_07.py" />
       <option name="targetType" value="PATH" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,9 +164,9 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (seminar_1/task_7.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask (lesson_2/app_08.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="flaskProject" />
-      <option name="target" value="$PROJECT_DIR$/seminar_1/task_7.py" />
+      <option name="target" value="$PROJECT_DIR$/lesson_2/app_08.py" />
       <option name="targetType" value="PATH" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,9 +180,9 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (seminar_1/task_8.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask (lesson_2/app_09.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="flaskProject" />
-      <option name="target" value="$PROJECT_DIR$/seminar_1/task_8.py" />
+      <option name="target" value="$PROJECT_DIR$/lesson_2/app_09.py" />
       <option name="targetType" value="PATH" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,15 +196,15 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (seminar_1/task_9.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask (lesson_2/app_10.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="flaskProject" />
-      <option name="target" value="$PROJECT_DIR$/seminar_1/task_9.py" />
+      <option name="target" value="$PROJECT_DIR$/lesson_2/app_10.py" />
       <option name="targetType" value="PATH" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -211,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flask server.Flask (seminar_1/task_9.py)" />
-        <item itemvalue="Flask server.Flask (seminar_1/task_8.py)" />
-        <item itemvalue="Flask server.Flask (seminar_1/task_7.py)" />
-        <item itemvalue="Flask server.Flask (seminar_1/task_6.py)" />
-        <item itemvalue="Flask server.Flask (seminar_1/task_5.py)" />
+        <item itemvalue="Flask server.Flask (lesson_2/app_10.py)" />
+        <item itemvalue="Flask server.Flask (lesson_2/app_09.py)" />
+        <item itemvalue="Flask server.Flask (lesson_2/app_08.py)" />
+        <item itemvalue="Flask server.Flask (lesson_2/app_07.py)" />
+        <item itemvalue="Flask server.Flask (lesson_2/app_06.py)" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +255,10 @@
       <updated>1711443676393</updated>
       <workItem from="1711443686477" duration="868000" />
       <workItem from="1711446108230" duration="6800000" />
-      <workItem from="1711453007001" duration="24517000" />
+      <workItem from="1711453007001" duration="24757000" />
+      <workItem from="1711482394702" duration="417000" />
+      <workItem from="1711536741499" duration="3574000" />
+      <workItem from="1711544717501" duration="11625000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -454,18 +476,151 @@
       <option name="project" value="LOCAL" />
       <updated>1711473470898</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="complete homework, create accessories.html, base_shop.html, clothes.html, shoes.html and styles.css">
+      <option name="closed" value="true" />
+      <created>1711482281472</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1711482281472</updated>
+    </task>
+    <task id="LOCAL-00029" summary="create lesson_2 branch/directory and static, templates folder">
+      <option name="closed" value="true" />
+      <created>1711537465773</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1711537465773</updated>
+    </task>
+    <task id="LOCAL-00030" summary="complete app_01.py">
+      <option name="closed" value="true" />
+      <created>1711543019363</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1711543019363</updated>
+    </task>
+    <task id="LOCAL-00031" summary="complete app_02.py">
+      <option name="closed" value="true" />
+      <created>1711543600740</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1711543600740</updated>
+    </task>
+    <task id="LOCAL-00032" summary="complete app_03.py">
+      <option name="closed" value="true" />
+      <created>1711547014886</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1711547014886</updated>
+    </task>
+    <task id="LOCAL-00033" summary="complete app_04.py">
+      <option name="closed" value="true" />
+      <created>1711548107687</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1711548107687</updated>
+    </task>
+    <task id="LOCAL-00034" summary="complete app_05.py, create form.html">
+      <option name="closed" value="true" />
+      <created>1711548876534</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1711548876534</updated>
+    </task>
+    <task id="LOCAL-00035" summary="complete app_06.py">
+      <option name="closed" value="true" />
+      <created>1711549202829</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1711549202829</updated>
+    </task>
+    <task id="LOCAL-00036" summary="complete app_07.py, create folder uploads">
+      <option name="closed" value="true" />
+      <created>1711551806407</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1711551806407</updated>
+    </task>
+    <task id="LOCAL-00037" summary="complete app_08.py, create base.html">
+      <option name="closed" value="true" />
+      <created>1711553445387</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1711553445387</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add path to .gitignore">
+      <option name="closed" value="true" />
+      <created>1711553634624</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1711553634624</updated>
+    </task>
+    <task id="LOCAL-00039" summary="complete app_09.py, db.py">
+      <option name="closed" value="true" />
+      <created>1711554688049</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1711554688049</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="lesson_2" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson_2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -473,18 +628,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Init" />
-    <MESSAGE value="app_01" />
-    <MESSAGE value="create wsgi" />
-    <MESSAGE value="app_02" />
-    <MESSAGE value="app_03" />
-    <MESSAGE value="app_04" />
-    <MESSAGE value="app_05" />
-    <MESSAGE value="create app_06.py, .gitignore and index.html" />
-    <MESSAGE value="new gitignor, bootstrap files etc" />
-    <MESSAGE value="move static into lesson_1" />
-    <MESSAGE value="app_06 and index.html" />
-    <MESSAGE value="app_07.py and index2.html" />
     <MESSAGE value="app_08.py and show_if.html" />
     <MESSAGE value="app_09.py and show_for.html" />
     <MESSAGE value="app_10.py and users.html" />
@@ -498,13 +641,35 @@
     <MESSAGE value="complete task_7.py, create news.html" />
     <MESSAGE value="complete task_8.py, create about.html, basetemp.html, contacts.html" />
     <MESSAGE value="start homework, create task_9.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="start homework, create task_9.py" />
+    <MESSAGE value="complete homework, create accessories.html, base_shop.html, clothes.html, shoes.html and styles.css" />
+    <MESSAGE value="create lesson_2 branch/directory and static, templates folder" />
+    <MESSAGE value="complete app_01.py" />
+    <MESSAGE value="complete app_02.py" />
+    <MESSAGE value="complete app_03.py" />
+    <MESSAGE value="complete app_04.py" />
+    <MESSAGE value="complete app_05.py, create form.html" />
+    <MESSAGE value="complete app_06.py" />
+    <MESSAGE value="complete app_07.py, create folder uploads" />
+    <MESSAGE value="complete app_08.py, create base.html" />
+    <MESSAGE value="add path to .gitignore" />
+    <MESSAGE value="complete app_09.py, db.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete app_09.py, db.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_2_app_05_py_.coverage" NAME="Flask (lesson_2/app_05.py) Coverage Results" MODIFIED="1711548701015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_2_app_04_py_.coverage" NAME="Flask (lesson_2/app_04.py) Coverage Results" MODIFIED="1711547553970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_09_py_.coverage" NAME="Flask (lesson_1/app_09.py) Coverage Results" MODIFIED="1711462438751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_2_app_02_py_.coverage" NAME="Flask (lesson_2/app_02.py) Coverage Results" MODIFIED="1711543414264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_2_app_03_py_.coverage" NAME="Flask (lesson_2/app_03.py) Coverage Results" MODIFIED="1711546949350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_10_py_.coverage" NAME="Flask (lesson_1/app_10.py) Coverage Results" MODIFIED="1711463169123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_11_py_.coverage" NAME="Flask (lesson_1/app_11.py) Coverage Results" MODIFIED="1711464728932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_5_py_.coverage" NAME="Flask (seminar_1/task_5.py) Coverage Results" MODIFIED="1711467938418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1711447459401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_2_app_01_py_.coverage" NAME="Flask (lesson_2/app_01.py) Coverage Results" MODIFIED="1711542817140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_6_py_.coverage" NAME="Flask (seminar_1/task_6.py) Coverage Results" MODIFIED="1711469330463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_7_py_.coverage" NAME="Flask (seminar_1/task_7.py) Coverage Results" MODIFIED="1711469921008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_4_py_.coverage" NAME="Flask (seminar_1/task_4.py) Coverage Results" MODIFIED="1711467118297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_9_py_.coverage" NAME="Flask (seminar_1/task_9.py) Coverage Results" MODIFIED="1711481887053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_9_py_.coverage" NAME="Flask (seminar_1/task_9.py) Coverage Results" MODIFIED="1711537259406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_3_py_.coverage" NAME="Flask (seminar_1/task_3.py) Coverage Results" MODIFIED="1711466932251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_01_py_.coverage" NAME="Flask (lesson_1/app_01.py) Coverage Results" MODIFIED="1711447125852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_2_py_.coverage" NAME="Flask (seminar_1/task_2.py) Coverage Results" MODIFIED="1711466379076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -513,14 +678,14 @@
     <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_1_py_.coverage" NAME="Flask (seminar_1/task_1.py) Coverage Results" MODIFIED="1711466160600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_08_py_.coverage" NAME="Flask (lesson_1/app_08.py) Coverage Results" MODIFIED="1711461112732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_07_py_.coverage" NAME="Flask (lesson_1/app_07.py) Coverage Results" MODIFIED="1711460569689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_09_py_.coverage" NAME="Flask (lesson_1/app_09.py) Coverage Results" MODIFIED="1711462438751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_2_app_06_py_.coverage" NAME="Flask (lesson_2/app_06.py) Coverage Results" MODIFIED="1711549081877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_2_app_10_py_.coverage" NAME="Flask (lesson_2/app_10.py) Coverage Results" MODIFIED="1711556694820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_2_app_07_py_.coverage" NAME="Flask (lesson_2/app_07.py) Coverage Results" MODIFIED="1711550760585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_2_app_08_py_.coverage" NAME="Flask (lesson_2/app_08.py) Coverage Results" MODIFIED="1711553929106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_2_app_09_py_.coverage" NAME="Flask (lesson_2/app_09.py) Coverage Results" MODIFIED="1711555532346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_05_py_.coverage" NAME="Flask (lesson_1/app_05.py) Coverage Results" MODIFIED="1711452003840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_10_py_.coverage" NAME="Flask (lesson_1/app_10.py) Coverage Results" MODIFIED="1711463169123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_11_py_.coverage" NAME="Flask (lesson_1/app_11.py) Coverage Results" MODIFIED="1711464728932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_04_py_.coverage" NAME="Flask (lesson_1/app_04.py) Coverage Results" MODIFIED="1711449858710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_02_py_.coverage" NAME="Flask (lesson_1/app_02.py) Coverage Results" MODIFIED="1711448169956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_03_py_.coverage" NAME="Flask (lesson_1/app_03.py) Coverage Results" MODIFIED="1711448769929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_5_py_.coverage" NAME="Flask (seminar_1/task_5.py) Coverage Results" MODIFIED="1711467938418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flaskProject$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1711447459401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
