@@ -4,6 +4,9 @@ __pycache__/
 *.pyo
 *$py.class
 
+# Игнорировать workspace.xml
+workspace.xml
+
 # Environment and IDE specific files
 .env
 .idea/
