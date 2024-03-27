@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ super }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <h1 class="col-12 col-md-6 display-2">Привет, меня зовут {{ name }}</h1>
+        <img src="{{ url_for('static', filename='image/photo.jpg') }}" alt="druz" width="300"
+             class="col-12 col-md-6 img-fluid rounded-circle">
+    </div>
+{% endblock %}
