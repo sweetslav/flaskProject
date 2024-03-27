@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a4e54da-a615-4f8e-8b87-f4d5ea63677b" name="Changes" comment="start homework, create task_9.py">
-      <change afterPath="$PROJECT_DIR$/seminar_1/templates/accessories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar_1/templates/base_shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar_1/templates/clothes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar_1/templates/shoes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar_1/templates/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flaskProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flaskProject.iml" afterDir="false" />
+    <list default="true" id="7a4e54da-a615-4f8e-8b87-f4d5ea63677b" name="Changes" comment="complete homework, create accessories.html, base_shop.html, clothes.html, shoes.html and styles.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_1/templates/new_data.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/templates/new_data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_1/templates/new_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/templates/new_main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seminar_1/task_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_1/task_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_1/templates/base_shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/seminar_1/templates/base_shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,53 +53,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Flask server.Flask (lesson_1/app_01.py).executor": "Run",
-    "Flask server.Flask (lesson_1/app_02.py).executor": "Run",
-    "Flask server.Flask (lesson_1/app_03.py).executor": "Run",
-    "Flask server.Flask (lesson_1/app_04.py).executor": "Run",
-    "Flask server.Flask (lesson_1/app_05.py).executor": "Run",
-    "Flask server.Flask (lesson_1/app_06.py).executor": "Run",
-    "Flask server.Flask (lesson_1/app_07.py).executor": "Run",
-    "Flask server.Flask (lesson_1/app_08.py).executor": "Run",
-    "Flask server.Flask (lesson_1/app_09.py).executor": "Run",
-    "Flask server.Flask (lesson_1/app_10.py).executor": "Run",
-    "Flask server.Flask (lesson_1/app_11.py).executor": "Run",
-    "Flask server.Flask (seminar_1/task_1.py).executor": "Run",
-    "Flask server.Flask (seminar_1/task_2.py).executor": "Run",
-    "Flask server.Flask (seminar_1/task_3.py).executor": "Run",
-    "Flask server.Flask (seminar_1/task_4.py).executor": "Run",
-    "Flask server.Flask (seminar_1/task_5.py).executor": "Run",
-    "Flask server.Flask (seminar_1/task_6.py).executor": "Run",
-    "Flask server.Flask (seminar_1/task_7.py).executor": "Run",
-    "Flask server.Flask (seminar_1/task_8.py).executor": "Run",
-    "Flask server.Flask (seminar_1/task_9.py).executor": "Run",
-    "Python.wsgi.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore_missing_gitignore": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Flask server.Flask (lesson_1/app_01.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (lesson_1/app_02.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (lesson_1/app_03.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (lesson_1/app_04.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (lesson_1/app_05.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (lesson_1/app_06.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (lesson_1/app_07.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (lesson_1/app_08.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (lesson_1/app_09.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (lesson_1/app_10.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (lesson_1/app_11.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (seminar_1/task_1.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (seminar_1/task_2.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (seminar_1/task_3.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (seminar_1/task_4.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (seminar_1/task_5.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (seminar_1/task_6.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (seminar_1/task_7.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (seminar_1/task_8.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (seminar_1/task_9.py).executor&quot;: &quot;Run&quot;,
+    &quot;Python.wsgi.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\slavu\PycharmProjects\flaskProject\seminar_1\static" />
       <recent name="C:\Users\slavu\PycharmProjects\flaskProject\lesson_1" />
       <recent name="C:\Users\slavu\PycharmProjects\flaskProject" />
       <recent name="C:\Users\slavu\PycharmProjects\flaskProject\templates" />
@@ -236,7 +230,9 @@
       <updated>1711443676393</updated>
       <workItem from="1711443686477" duration="868000" />
       <workItem from="1711446108230" duration="6800000" />
-      <workItem from="1711453007001" duration="24517000" />
+      <workItem from="1711453007001" duration="24757000" />
+      <workItem from="1711482394702" duration="417000" />
+      <workItem from="1711536741499" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -454,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711473470898</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="complete homework, create accessories.html, base_shop.html, clothes.html, shoes.html and styles.css">
+      <option name="closed" value="true" />
+      <created>1711482281472</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1711482281472</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +477,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Init" />
     <MESSAGE value="app_01" />
     <MESSAGE value="create wsgi" />
     <MESSAGE value="app_02" />
@@ -498,13 +501,14 @@
     <MESSAGE value="complete task_7.py, create news.html" />
     <MESSAGE value="complete task_8.py, create about.html, basetemp.html, contacts.html" />
     <MESSAGE value="start homework, create task_9.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="start homework, create task_9.py" />
+    <MESSAGE value="complete homework, create accessories.html, base_shop.html, clothes.html, shoes.html and styles.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete homework, create accessories.html, base_shop.html, clothes.html, shoes.html and styles.css" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_6_py_.coverage" NAME="Flask (seminar_1/task_6.py) Coverage Results" MODIFIED="1711469330463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_7_py_.coverage" NAME="Flask (seminar_1/task_7.py) Coverage Results" MODIFIED="1711469921008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_4_py_.coverage" NAME="Flask (seminar_1/task_4.py) Coverage Results" MODIFIED="1711467118297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_9_py_.coverage" NAME="Flask (seminar_1/task_9.py) Coverage Results" MODIFIED="1711481887053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_9_py_.coverage" NAME="Flask (seminar_1/task_9.py) Coverage Results" MODIFIED="1711482138131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_3_py_.coverage" NAME="Flask (seminar_1/task_3.py) Coverage Results" MODIFIED="1711466932251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__lesson_1_app_01_py_.coverage" NAME="Flask (lesson_1/app_01.py) Coverage Results" MODIFIED="1711447125852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$Flask__seminar_1_task_2_py_.coverage" NAME="Flask (seminar_1/task_2.py) Coverage Results" MODIFIED="1711466379076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
