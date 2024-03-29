@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    Подсчёт количества слов
+{% endblock %}
+
+{% block content %}
+    <div>
+        <form action="/count/" method="post">
+            <input type="text" name="sentence" placeholder="Введите текст">
+            <input type="submit" value="Подсчитать">
+        </form>
+    </div>
+{% endblock %}
+
