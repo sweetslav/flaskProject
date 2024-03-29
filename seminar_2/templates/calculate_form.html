@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    Калькулятор
+{% endblock %}
+
+{% block content %}
+    <div>
+        <form action="/calculator/" method="post">
+            <input type="number" name="first_num" placeholder="Введите первое число">
+            <br><br>
+            <input type="number" name="second_num" placeholder="Введите второе число">
+            <br><br>
+            <input type="text" name="operation" placeholder="Введите действие">
+            <br><br>
+            <input type="submit" value="Рассчитать">
+            <br><br>
+        </form>
+    </div>
+{% endblock %}
+
