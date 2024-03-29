@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    Узнать квадрат числа
+{% endblock %}
+
+{% block content %}
+    <div>
+        <form action="/square/" method="post">
+            <input type="number" name="square_num" placeholder="Введите число">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+{% endblock %}
