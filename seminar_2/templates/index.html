@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="{{ url_for('static', filename='/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/styles.css') }}">
     <title>
         {% block title %}
             Мой сайт
@@ -11,28 +12,49 @@
     </title>
 </head>
 <body>
-<div class="container-fluid">
-    <ul class="nav nav-pills justify-content-end align-items-end">
-        <li class="nav-item"><a href="/" class="nav-link">Главная</a></li>
-        <li class="nav-item"><a href="/hello/" class="nav-link">Приветствие</a></li>
-        <li class="nav-item"><a href="/image/" class="nav-link">Изображение</a></li>
-        <li class="nav-item"><a href="/authorization/" class="nav-link">Авторизация</a></li>
-        <li class="nav-item"><a href="/upload/" class="nav-link">Загрузить файл</a></li>
-        <li class="nav-item"><a href="/count/" class="nav-link">Подсчитать слова</a></li>
-        <li class="nav-item"><a href="/calculator/" class="nav-link">Калькулятор</a></li>
-        <li class="nav-item"><a href="/age/" class="nav-link">Возраст</a></li>
-        <li class="nav-item"><a href="/square/" class="nav-link">Квадрат числа</a></li>
-        <li class="nav-item"><a href="/greeting/" class="nav-link">Flash приветствие</a></li>
-        <li class="nav-item"><a href="/login/" class="nav-link">Войти</a></li>
-    </ul>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">Мой Сайт</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="/" class="nav-link">Главная</a></li>
+                <li class="nav-item"><a href="/hello/" class="nav-link">Приветствие</a></li>
+                <li class="nav-item"><a href="/image/" class="nav-link">Изображение</a></li>
+                <li class="nav-item"><a href="/authorization/" class="nav-link">Авторизация</a></li>
+                <li class="nav-item"><a href="/upload/" class="nav-link">Загрузить файл</a></li>
+                <li class="nav-item"><a href="/count/" class="nav-link">Подсчитать слова</a></li>
+                <li class="nav-item"><a href="/calculator/" class="nav-link">Калькулятор</a></li>
+                <li class="nav-item"><a href="/age/" class="nav-link">Возраст</a></li>
+                <li class="nav-item"><a href="/square/" class="nav-link">Квадрат числа</a></li>
+                <li class="nav-item"><a href="/greeting/" class="nav-link">Flash приветствие</a></li>
+                <li class="nav-item"><a href="/login/" class="nav-link">Войти</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
     {% block content %}
-        Это домашняя страница
+        <div class="jumbotron">
+            <h1 class="display-4">Добро пожаловать!</h1>
+            <p class="lead">Это домашняя страница.</p>
+            <hr class="my-4">
+        </div>
     {% endblock %}
-    <div class="row fixed-bottom modal-footer">
-        <hr>
+</div>
+
+<footer>
+    <div class="container">
         <p>Все права защищены &copy;</p>
     </div>
-</div>
-<script src="{{ url_for('static', filename='js/bootstrap.bundle.js') }}"></script>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
