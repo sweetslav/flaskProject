@@ -11,26 +11,28 @@
     </title>
 </head>
 <body>
-    <div class="container-fluid">
-        <ul class="nav nav-pills justify-content-end align-items-end">
-            <li class="nav-item"><a href="/hello/" class="nav-link">Приветствие</a></li>
-            <li class="nav-item"><a href="/image/" class="nav-link">Изображение</a></li>
-            <li class="nav-item"><a href="/upload/" class="nav-link">Загрузить файл</a></li>
-            <li class="nav-item"><a href="/count/" class="nav-link">Подсчитать слова</a></li>
-            <li class="nav-item"><a href="/calculator/" class="nav-link">Калькулятор</a></li>
-            <li class="nav-item"><a href="/square/" class="nav-link">Квадрат числа</a></li>
-            <li class="nav-item"><a href="/age/" class="nav-link">Возраст</a></li>
-            <li class="nav-item"><a href="/greeting/" class="nav-link">Flash приветствие</a></li>
-            <li class="nav-item"><a href="/authorization/" class="nav-link">Войти</a></li>
-        </ul>
-        {% block content %}
-            Это домашняя страница
-        {% endblock %}
-        <div class="row fixed-bottom modal-footer">
-            <hr>
-            <p>Все права защищены &copy;</p>
-        </div>
+<div class="container-fluid">
+    <ul class="nav nav-pills justify-content-end align-items-end">
+        <li class="nav-item"><a href="/" class="nav-link">Главная</a></li>
+        <li class="nav-item"><a href="/hello/" class="nav-link">Приветствие</a></li>
+        <li class="nav-item"><a href="/image/" class="nav-link">Изображение</a></li>
+        <li class="nav-item"><a href="/authorization/" class="nav-link">Авторизация</a></li>
+        <li class="nav-item"><a href="/upload/" class="nav-link">Загрузить файл</a></li>
+        <li class="nav-item"><a href="/count/" class="nav-link">Подсчитать слова</a></li>
+        <li class="nav-item"><a href="/calculator/" class="nav-link">Калькулятор</a></li>
+        <li class="nav-item"><a href="/age/" class="nav-link">Возраст</a></li>
+        <li class="nav-item"><a href="/square/" class="nav-link">Квадрат числа</a></li>
+        <li class="nav-item"><a href="/greeting/" class="nav-link">Flash приветствие</a></li>
+        <li class="nav-item"><a href="/login/" class="nav-link">Войти</a></li>
+    </ul>
+    {% block content %}
+        Это домашняя страница
+    {% endblock %}
+    <div class="row fixed-bottom modal-footer">
+        <hr>
+        <p>Все права защищены &copy;</p>
     </div>
-    <script src="{{ url_for('static', filename='js/bootstrap.bundle.js') }}"></script>
+</div>
+<script src="{{ url_for('static', filename='js/bootstrap.bundle.js') }}"></script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    Войти в аккаунт
+{% endblock %}
+
+{% block content %}
+    <div>
+        <form action="/login/" method="post">
+            <input type="text" name="username" placeholder="Введите имя">
+            <input type="text" name="user_email" placeholder="Введите почту">
+            <input type="submit" value="Войти">
+        </form>
+    </div>
+{% endblock %}
+

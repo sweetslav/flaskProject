@@ -1,14 +1,14 @@
 {% extends 'index.html' %}
 
 {% block title %}
-    Войти в аккаунт
+    Задача №3
 {% endblock %}
 
 {% block content %}
     <div>
         <form action="/authorization/" method="post">
-            <input type="text" name="login" placeholder="Логин">
-            <input type="text" name="password" placeholder="Пароль">
+            <input type="text" name="user_login" placeholder="Логин">
+            <input type="text" name="user_password" placeholder="Пароль">
             <input type="submit" value="Войти">
         </form>
     </div>
