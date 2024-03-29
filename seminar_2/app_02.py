@@ -14,9 +14,9 @@ def html_index():
     return render_template('index.html')
 
 
-@app.get('/form/')
+@app.get('/hello/')
 def html_form():
-    return render_template('form.html')
+    return render_template('hello_form.html')
 
 
 @app.post('/submit/')

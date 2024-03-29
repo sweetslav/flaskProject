@@ -15,12 +15,12 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/form/', methods=['GET', 'POST'])
+@app.route('/hello/', methods=['GET', 'POST'])
 def hello_form():
     if request.method == 'POST':
         name = request.form.get('name')
         return f'Hello, {name}'
-    return render_template('form.html')
+    return render_template('hello_form.html')
 
 
 @app.route('/upload/', methods=['GET', 'POST'])

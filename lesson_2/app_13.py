@@ -9,7 +9,7 @@ def index():
     return '<h1>Добро пожаловать на главную страницу</h1>'
 
 
-@app.route('/form/', methods=['GET', 'POST'])
+@app.route('/hello/', methods=['GET', 'POST'])
 def form():
     if request.method == 'POST':
         # Проверка данных формы

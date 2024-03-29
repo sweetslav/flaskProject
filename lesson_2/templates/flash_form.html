@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block content %}
-    <form action="/form/" method="post">
+    <form action="/hello/" method="post">
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, message in messages %}

@@ -1,0 +1,24 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    Flash приветствие
+{% endblock %}
+
+{% block content %}
+    <div>
+        <form action="/greeting/" method="post">
+            {%  with messages = get_flashed_messages(with_categories=True) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            <input type="text" name="name" placeholder="Введите имя">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+{% endblock %}
+

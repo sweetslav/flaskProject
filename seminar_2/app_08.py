@@ -1,13 +1,19 @@
-# Задание №7.
-# Создать страницу, на которой будет форма для ввода числа и кнопка "Отправить"
-# При нажатии на кнопку будет произведено перенаправление на страницу с результатом,
-# где будет выведено введенное число и его квадрат.
+# Задание №8.
+# Создать страницу, на которой будет форма для ввода имени и кнопка "Отправить"
+# При нажатии на кнопку будет произведено перенаправление на страницу с flash сообщением,
+# где будет выведено "Привет, {имя}!".
+
 
 from pathlib import PurePath, Path
-from flask import Flask, render_template, request, url_for
+from flask import Flask, render_template, request, url_for, flash, redirect
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
+
+# >>> imports secrets
+# >>> secrets.token_hex()
+
+app.secret_key = b'eefd12a8c23b37b1f64725b258b6169f2c461791e271c95bc553fdc25aad50bd'
 
 
 @app.route('/')
@@ -16,7 +22,7 @@ def index():
 
 
 @app.route('/hello/', methods=['GET', 'POST'])
-def hello_form():
+def say_hello():
     if request.method == 'POST':
         name = request.form.get('name')
         return f'Hello, {name}'
@@ -24,7 +30,7 @@ def hello_form():
 
 
 @app.route('/upload/', methods=['GET', 'POST'])
-def upload_file_page():
+def upload_file():
     if request.method == 'POST':
         file = request.files.get('file')
         if file:
@@ -39,12 +45,12 @@ def upload_file_page():
 
 
 @app.route('/image/')
-def image_page():
+def html_image_page():
     return render_template('image_page.html')
 
 
 @app.route('/authorization/', methods=['GET', 'POST'])
-def authorization_page():
+def authorization():
     if request.method == 'POST':
         if request.form.get('login') == 'admin' and request.form.get('password') == '678400':
             return render_template('index.html')
@@ -54,7 +60,7 @@ def authorization_page():
 
 
 @app.route('/count/', methods=['GET', 'POST'])
-def word_count_page():
+def word_counter():
     if request.method == 'POST':
         sentence = request.form.get('sentence')
         word_count = len(sentence.split())
@@ -63,7 +69,7 @@ def word_count_page():
 
 
 @app.route('/calculator/', methods=['GET', 'POST'])
-def calculator_page():
+def calculator():
     if request.method == 'POST':
         first_num = request.form.get('first_num')
         second_num = request.form.get('second_num')
@@ -86,7 +92,7 @@ def calculator_page():
 
 
 @app.route('/age/', methods=['GET', 'POST'])
-def age_validate():
+def age_validation():
     if request.method == 'POST':
         age = int(request.form.get('age'))
         name = request.form.get('name')
@@ -103,6 +109,15 @@ def calculate_square_of_number():
         number = int(request.form.get('square_num'))
         return str(number * number)
     return render_template('square_page.html')
+
+
+@app.route('/greeting/', methods=['GET', 'POST'])
+def flash_greeting():
+    if request.method == 'POST':
+        name = request.form.get('name')
+        flash(f'Привет, {name}!', category='success')
+        return redirect(url_for('flash_greeting', name=name))
+    return render_template('greeting_page.html')
 
 
 if __name__ == '__main__':
