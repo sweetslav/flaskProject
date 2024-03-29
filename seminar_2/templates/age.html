@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    Форма для возраста пользователя
+{% endblock %}
+
+{% block content %}
+    <div>
+        <form action="/age/" method="post">
+            <input type="text" name="name" placeholder="Введите ваше имя">
+            <input type="number" name="age" placeholder="Введите ваш возраст">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+{% endblock %}
