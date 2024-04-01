@@ -1,7 +1,6 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField
-from wtforms.fields.numeric import IntegerField
-from wtforms.validators import DataRequired, Email, EqualTo
+from wtforms import StringField, PasswordField, SelectField, IntegerField
+from wtforms.validators import DataRequired, Email, EqualTo, Length
 
 
 class LoginForm(FlaskForm):
@@ -12,7 +11,7 @@ class LoginForm(FlaskForm):
 class RegisterForm(FlaskForm):
     name = StringField('Name', validators=[DataRequired()])
     age = IntegerField('Age', validators=[DataRequired()])
-    gender = StringField('Gender', choices=[('male', 'мужчина'), ('female', 'женщина')])
+    gender = SelectField('Gender', choices=[('male', 'мужчина'), ('female', 'женщина')])
 
 
 class RegistrationForm(FlaskForm):
