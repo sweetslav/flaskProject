@@ -13,12 +13,13 @@ class Student(db.Model):
     faculty_id = db.Column(db.Integer, db.ForeignKey('faculty.id'), nullable=False)
 
     def __repr__(self):
-        return f'<Student {self.name} {self.last_name}. Age: {self.age}. Group: {self.group}>'
+        return f'Student {self.name} {self.last_name}. Age: {self.age}. Group: {self.group}. Faculty: {self.faculty}'
 
 
 class Faculty(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), nullable=False)
+    students = db.relationship('Student', backref=db.backref('faculty'), lazy=True)
 
     def __repr__(self):
-        return f'<Faculty {self.name} - {self.id}>'
+        return f'{self.name}'
