@@ -1,0 +1,39 @@
+/* Custom CSS for styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+}
+
+.navbar {
+    background-color: #343a40;
+    font-size: smaller; /* change font size to smaller */
+    padding: 8px 15px; /* adjust padding */
+    text-align: center;
+    margin-bottom: 20px; /* add margin to separate navbar from content */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #17a2b8 !important;
+}
+
+.container {
+    margin-top: 20px;
+    max-width: 1200px; /* set max width for container */
+    margin-left: auto; /* center container horizontally */
+    margin-right: auto; /* center container horizontally */
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
