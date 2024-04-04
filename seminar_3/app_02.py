@@ -8,7 +8,7 @@
 
 from flask import Flask, render_template
 from faker import Faker
-from seminar_3.models_2 import db, Book, Author
+from seminar_3.models import db, Book, Author
 from sqlalchemy.exc import IntegrityError
 import random
 

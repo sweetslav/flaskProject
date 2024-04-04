@@ -11,7 +11,7 @@ class Book(db.Model):
     author_id = db.Column(db.Integer, db.ForeignKey('author.id'), nullable=False)
 
     def __repr__(self):
-        return (f'<Book {self.title} (author id: {self.author_id}). '
+        return (f'<Book "{self.title}" (author id: {self.author_id}). '
                 f'Year of publishing: {self.year}. Number of copies: {self.number_of_copies}.>')
 
 

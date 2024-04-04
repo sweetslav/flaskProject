@@ -1,0 +1,36 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    Faculty List
+{% endblock %}
+
+{% block content %}
+    <div>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Faculty Name</th>
+                    <th>Students</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for faculty in faculties %}
+                    <tr>
+                        <td>{{ faculty.id }}</td>
+                        <td>{{ faculty.name }}</td>
+                        <td>
+                            <ul>
+                                {% for student in faculty.students %}
+                                    <li>{{ student.name }} {{ student.last_name }}</li>
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

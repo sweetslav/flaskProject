@@ -1,0 +1,42 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    Grades List
+{% endblock %}
+
+{% block content %}
+    <div>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Student</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Group</th>
+                    <th>Faculty</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for grade in grades %}
+                    <tr>
+                        <td>{{ grade.id }}</td>
+                        <td>{{ grade.student.name }} {{ grade.student.last_name }}</td>
+                        <td>{{ grade.student.email }}</td>
+                        <td>{{ grade.student.age }}</td>
+                        <td>{{ grade.student.gender }}</td>
+                        <td>{{ grade.student.group }}</td>
+                        <td>{{ grade.student.faculty.name }}</td>
+                        <td>{{ grade.subject }}</td>
+                        <td>{{ grade.grade }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

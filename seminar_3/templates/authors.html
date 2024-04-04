@@ -1,7 +1,7 @@
 {% extends 'index.html' %}
 
 {% block title %}
-    Задача №1
+    Задача №2
 {% endblock %}
 
 {% block content %}
@@ -14,20 +14,22 @@
                     <th>ID</th>
                     <th>Имя</th>
                     <th>Фамилия</th>
-                    <th>Возраст</th>
-                    <th>Группа</th>
-                    <th>Факультет ID</th>
+                    <th>Книги</th>
                 </tr>
             </thead>
             <tbody>
-                {% for student in students %}
+                {% for author in authors %}
                     <tr>
-                        <td>{{ student.id }}</td>
-                        <td>{{ student.name }}</td>
-                        <td>{{ student.last_name }}</td>
-                        <td>{{ student.age }}</td>
-                        <td>{{ student.group }}</td>
-                        <td>{{ student.faculty.name }}</td>
+                        <td>{{ author.id }}</td>
+                        <td>{{ author.name }}</td>
+                        <td>{{ author.last_name }}</td>
+                        <td>
+                            <ul>
+                                {% for book in author.books %}
+                                    <li>{{ book.title }}</li>
+                                {% endfor %}
+                            </ul>
+                        </td>
                     </tr>
                 {% endfor %}
             </tbody>

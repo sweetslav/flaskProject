@@ -6,9 +6,29 @@
 
 {% block content %}
     <div>
-        {% for book in books %}
-            {{ book }}<br>
-        {% endfor %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
 
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Название книги</th>
+                    <th>Год написания</th>
+                    <th>Число копий</th>
+                    <th>Автор ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for book in books %}
+                    <tr>
+                        <td>{{ book.id }}</td>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.year }}</td>
+                        <td>{{ book.number_of_copies }}</td>
+                        <td>{{ book.author_id }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
 {% endblock %}
