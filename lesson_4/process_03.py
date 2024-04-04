@@ -1,13 +1,17 @@
 import multiprocessing
+import time
 
 counter = 0
 
 
 def increment():
     global counter
-    for _ in range(100_000):
+    start_time = time.time()
+    for _ in range(10_000):
         counter += 1
+    end_time = time.time()
     print(f'Значение счётчика: {counter:_}')
+    print(f'Время выполнения: {end_time - start_time:.2f}')
 
 
 if __name__ == '__main__':
