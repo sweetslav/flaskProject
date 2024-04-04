@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    Задача №2
+{% endblock %}
+
+{% block content %}
+    <div>
+        {% for book in books %}
+            {{ book }}<br>
+        {% endfor %}
+
+    </div>
+{% endblock %}
