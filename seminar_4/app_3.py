@@ -11,7 +11,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     filename='seminar_5.log',
-    filemode='a', # обязательно ставим режим дописывания файла
+    filemode='a',  # обязательно ставим режим дописывания файла (на осознание ушло 40 мин)
 )
 
 logger = logging.getLogger(__name__)
