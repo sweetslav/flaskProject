@@ -10,7 +10,7 @@ from pathlib import Path
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    filename='seminar_5.log',
+    filename='multiproc.log',
     filemode='a',  # обязательно ставим режим дописывания файла (на осознание ушло 40 мин)
 )
 
@@ -19,10 +19,14 @@ logger = logging.getLogger(__name__)
 
 def count_words_in_file(file_path: Path) -> int:
     """Подсчитывает количество слов в файле."""
-    with open(file_path, 'r', encoding='utf-8', errors='ignore') as file:
-        content = file.read()
-        words = content.split()
-        return len(words)
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
+            words = content.split()
+            return len(words)
+    except Exception as e:
+        logger.error(f"Error processing file '{file_path}': {e}")
+        return 0
 
 
 def process_file(file_path: Path):
