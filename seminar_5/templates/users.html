@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        {% block title %}
+            Список пользователей
+        {% endblock %}
+    </title>
+</head>
+<body>
+    <h1>Список пользователей</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Имя</th>
+            <th>Email</th>
+            <th>Пароль</th>
+        </tr>
+        {% for user in users %}
+        <tr>
+            <td>{{ user.id }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.password }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="/create_user">Добавить нового пользователя</a>
+    <br><br>
+    <div><a href="/">Домашняя страница</a></div>
+</body>
+</html>
