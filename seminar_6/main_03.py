@@ -13,7 +13,6 @@ from fastapi import FastAPI
 from pydantic import BaseModel, Field
 
 DATABASE_URL = 'sqlite:///homework_6.db'
-
 database = databases.Database(DATABASE_URL)
 metadata = sqlalchemy.MetaData()
 app = FastAPI()
